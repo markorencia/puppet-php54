@@ -1,0 +1,9 @@
+---
+php::install_ensure: 'installed'
+php::www_ensure: 'file'
+php::www_path: '/etc/php-fpm.d/www.conf'
+php::info_ensure: 'file'
+php::info_path: '/usr/share/nginx/html/info.php'
+php::service_name: 'php-fpm'
+php::service_ensure: 'running'
+php::service_enable: true

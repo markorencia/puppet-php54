@@ -1,0 +1,6 @@
+---
+php::install_name: 'php'
+php::service_name: 'php-fpm'
+php::www_path: '/etc/php-fpm.d/www.conf'
+php::info_path: '/usr/share/nginx/html/info.php'
+
